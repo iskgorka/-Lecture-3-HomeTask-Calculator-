@@ -9,7 +9,6 @@ public class CalculatorSwitch {
         String operation = sc.next();
         System.out.println("What is the second value?");
         double secondValue = sc.nextDouble();
-
         switch (operation) {
             case "+":
                 System.out.println(firstValue + secondValue);
