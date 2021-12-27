@@ -17,7 +17,7 @@ public class Calculator {
         double secondValue = sc.nextDouble();
         System.out.println("Chose the operation between (+, -, *, /, %)");
         do{
-            String operation = sc.next();
+            String operation = sc.nextLine();
             if (operation.equals("+")) {
                 System.out.println(firstValue + secondValue);
                 break;
